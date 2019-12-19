@@ -1,0 +1,23 @@
+
+
+<style>
+#errorArea {position:absolute; top:50%; left:50%; margin-left:-225px; margin-top:-150px; width:365px; padding-left:185px; background:url(/etc/designs/koreanair-travel/images/error/bg.png) no-repeat 0 80px;}
+#errorArea h1 {position:absolute; left:0px; top:5px;}
+#errorArea h2 {font-size:25px; font-weight:normal; font-family:NanumGB; color:#333; line-height:32px;}
+#errorArea h2 div {color:#747474; font-size:25px; font-weight:normal; font-family:NanumGB; line-height:32px;}
+#errorArea h2 div span {color:#354d5d;}
+#errorArea p {padding:20px 0; font-size:14px; line-height:20px;}
+#errorArea a {margin-right:10px;}
+</style>
+
+<div id="errorArea">
+	<h1><img src="/etc/designs/koreanair-travel/images/error/logo.png" alt="TRAVEL.KOREANAIR.COM"></h1>
+	<h2>
+		이용에 불편을 드려 죄송합니다! 
+		<div><span>요청하신 페이지가</span> 없습니다.</div>
+	</h2>
+	<p>돌아가기 버튼 혹은 메인보기 버튼을 클릭하시면<br>
+	정상적인 사이트 이용이 가능합니다. 감사합니다.</p>
+	<a href="#" onclick="history.back(); return false;"><img src="/etc/designs/koreanair-travel/images/error/btn_back.png" alt="돌아가기"></a>
+	<a href="/content/koreanair-travel/kr.html"><img src="/etc/designs/koreanair-travel/images/error/btn_main.png" alt="메인보기"></a>
+</div>
